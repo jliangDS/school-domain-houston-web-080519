@@ -27,7 +27,7 @@ class School
   end 
   
   def sort
-    @roster.each [|x| x.sort]
+    @roster.each do [|x| x.sort] end 
     binding.pry
   end
 end 
