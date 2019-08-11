@@ -17,5 +17,8 @@ class School
   
   def grade(grade)
   end
+  
+  def sort 
+  end 
 end 
 
