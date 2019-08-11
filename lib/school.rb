@@ -26,7 +26,7 @@ class School
   end 
   
   def sort
-    a = @roster.
+    @roster.each [|x| x.sort]
   end
 end 
 
