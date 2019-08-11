@@ -27,8 +27,8 @@ class School
   end 
   
   def sort
-    contacts.each do |person, data|
-      puts "#{person}: #{data}"
+    @roster.each do |grade, name|
+      puts "#{grade}: #{name}"
     end
     binding.pry
   end
