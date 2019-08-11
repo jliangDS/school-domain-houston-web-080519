@@ -1,4 +1,3 @@
-require 'pry'
 class School
   
   attr_accessor :name, :roster
@@ -20,7 +19,6 @@ class School
     else 
       @roster[grade] << name 
     end 
-    binding.pry 
   end 
   
 end 
