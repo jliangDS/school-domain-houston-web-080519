@@ -26,6 +26,7 @@ class School
   end 
   
   def sort
+    a = @roster.
   end
 end 
 
